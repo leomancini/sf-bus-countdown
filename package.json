@@ -1,0 +1,31 @@
+{
+  "name": "sf-bus-times",
+  "productName": "SF Bus Time",
+  "version": "1.0.0",
+  "description": "A small Electron app to show number of minutes until the bus arrives at morning and evening commute stops.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/leomancini31/sf-bus-commute",
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Leo Mancini",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^6.0.7",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "electron-reload": "^1.5.0"
+  },
+  "build": {
+    "appId": "sfbustimes",
+    "mac": {
+      "category": "utility"
+    }
+  }
+}
