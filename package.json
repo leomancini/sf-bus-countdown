@@ -19,7 +19,7 @@
     "dot-prop": ">=5.1.1",
     "electron": "^9.4.0",
     "electron-builder": "^22.8.1",
-    "lodash": ">=4.17.19"
+    "lodash": ">=4.17.21"
   },
   "dependencies": {
     "electron-reload": "^1.5.0"
